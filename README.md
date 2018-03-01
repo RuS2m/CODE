@@ -1,32 +1,32 @@
 # Code
  Here you can see example of my code on C/C++. There are various realizations of famous basic algorithms.
 ## Here you can find
-- [ ]<!-- -->[Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
+- [ ] <!-- -->[Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
 
-- [ ]<!-- -->][Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
+- [Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
 
-[Dijkstra's algorithm](https://github.com/RuS2m/CODE/tree/master/Dijkstra)
+- [Dijkstra's algorithm](https://github.com/RuS2m/CODE/tree/master/Dijkstra)
 
-[The Forest vertex-cover problem](https://github.com/RuS2m/CODE/tree/master/FVC)
+- [The Forest vertex-cover problem](https://github.com/RuS2m/CODE/tree/master/FVC)
 
-[Floyd–Warshall algorithm](https://github.com/RuS2m/CODE/tree/master/Floyd–Warshall)
+- [Floyd–Warshall algorithm](https://github.com/RuS2m/CODE/tree/master/Floyd–Warshall)
 
-[Kruskal's algorithm'](https://github.com/RuS2m/CODE/tree/master/Kruskal)
+- [Kruskal's algorithm'](https://github.com/RuS2m/CODE/tree/master/Kruskal)
 
-[Travelling salesman problem](https://github.com/RuS2m/CODE/tree/master/TSP)
+- [Travelling salesman problem](https://github.com/RuS2m/CODE/tree/master/TSP)
 
-[Binary tree realization](https://github.com/RuS2m/CODE/tree/master/bin_tree)
+- [Binary tree realization](https://github.com/RuS2m/CODE/tree/master/bin_tree)
 
-[The number of connected components](https://github.com/RuS2m/CODE/tree/master/component_counter)
+- [The number of connected components](https://github.com/RuS2m/CODE/tree/master/component_counter)
 
-[Matrix realization](https://github.com/RuS2m/CODE/tree/master/matrix)
+- [Matrix realization](https://github.com/RuS2m/CODE/tree/master/matrix)
 
-[Maximum cut](https://github.com/RuS2m/CODE/tree/master/max_cut)
+- [Maximum cut](https://github.com/RuS2m/CODE/tree/master/max_cut)
 
-[Various sort algotiyhms](https://github.com/RuS2m/CODE/tree/master/sorts)
+- [Various sort algotiyhms](https://github.com/RuS2m/CODE/tree/master/sorts)
 
-[std::unique ptr realization](https://github.com/RuS2m/CODE/tree/master/unique_ptr)
+- [std::unique_ptr realization](https://github.com/RuS2m/CODE/tree/master/unique_ptr)
 
-    
+----    
 ## Comments:
 > I hope you will enjoy
