@@ -1,8 +1,8 @@
 # Code
  Here you can see example of my code on C/C++. There are various realizations of famous basic algorithms.
-======
 ## Here you can find:
-    - [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS#breadth-first-search)
+
+    [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS#breadth-first-search)
     - [Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
     - [Dijkstra's algorithm](https://github.com/RuS2m/CODE/tree/master/Dijkstra)
     - [The Forest vertex-cover problem](https://github.com/RuS2m/CODE/tree/master/FVC)
