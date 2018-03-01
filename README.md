@@ -1,7 +1,7 @@
 # Code
  Here you can see example of my code on C/C++. There are various realizations of famous basic algorithms.
 ## Here you can find
-- [ ] <!-- -->[Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
+- [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
 
 - [Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
 
