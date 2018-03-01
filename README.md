@@ -1,6 +1,6 @@
-# Code
- Here you can see example of my code on C/C++. There are various realizations of famous basic algorithms.
-## Here you can find
+# What is it?
+ In this repository I collected examples of my code on C/C++. There are various realizations of famous basic algorithms or popular objects and functions of C++.
+## Here you can find:
 - [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
 
 - [Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
@@ -11,7 +11,7 @@
 
 - [Floyd–Warshall algorithm](https://github.com/RuS2m/CODE/tree/master/Floyd–Warshall)
 
-- [Kruskal's algorithm'](https://github.com/RuS2m/CODE/tree/master/Kruskal)
+- [Kruskal's algorithm](https://github.com/RuS2m/CODE/tree/master/Kruskal)
 
 - [Travelling salesman problem](https://github.com/RuS2m/CODE/tree/master/TSP)
 
@@ -27,6 +27,5 @@
 
 - [std::unique_ptr realization](https://github.com/RuS2m/CODE/tree/master/unique_ptr)
 
-----    
 ## Comments:
 > I hope you will enjoy
