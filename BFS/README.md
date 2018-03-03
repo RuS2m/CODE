@@ -25,37 +25,48 @@ So as not be confused because of which nodes were visited, and which won't, we c
 0. Array *must_visit*: A; array *not_used*: B, C, D, E, F
 
 1. Visit B, delete B from *not_used* array, add B to *must_visit* array
+
 (Array *must_visit*: A, B; array *not_used*: C, D, E, F)
 
 2. Visit C, delete C from *not_used* array, add C to *must_visit* array
+
 (Array *must_visit*: A, B, C; array *not_used*: D, E, F)
 
 3. Delete A from *must_visit* array
+
 (Array *must_visit*: B, C; array *not_used*: D, E, F)
 
 4. Visit D, delete D from *not_used* array, add D to *must_used* array
+
 (Array *must_visit*: B, C, D; array *not_used*: E, F)
 
 5. Delete B from *must_visit* array
+
 (Array *must_visit*: C, D; array *not_used*: E, F)
 
 6. Visit E, delete E from *not_used* array, add E to *must_used* array
+
 (Array *must_visit*: C, D, E; array *not_used*: F)
 
 7. Delete C from *must_visit* array
+
 (Array *must_visit*: D, E; array *not_used*: F)
 
 8. Visit F, delete F from *not_used* array, add F to *must_used* array
+
 (Array *must_visit*: D, E, F; array *not_used*: -)
 
 9. Delete D from *must_visit* array
+
 (Array *must_visit*: E, F; array *not_used*: -)
 
 10. Delete E from *must_visit* array
+
 (Array *must_visit*: F; array *not_used*: -)
 
 11. Delete F from *must_visit* array
-(Array *must_visit*: ; array *not_used*: -)
+
+(Array *must_visit*: -; array *not_used*: -)
 
 12. *must_visit* array is empty => END
 
