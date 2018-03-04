@@ -29,3 +29,6 @@
 
 ## Comments:
 > I hope you will enjoy
+
+------
+> my Resume -> [click here](https://github.com/RuS2m/CODE/tree/master/CV.pdf)
