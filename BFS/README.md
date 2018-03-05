@@ -79,5 +79,5 @@ Array **must_visit**: A; array **not_used**: B, C, D, E, F
 
 ### Illustration:
 
-![alt text](https://github.com/RuS2m/CODE/tree/master/BFS/Example_BFS"Logo Title Text 2")
+![alt text](https://github.com/RuS2m/CODE/tree/master/BFS/Example_BFS "Logo Title Text 2")
 

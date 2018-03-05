@@ -2,15 +2,15 @@
 
 ## Description:
 
-**Depth-first search _(DFS)_** is a simple traversing algorithm, which globally consists in two steps, that are going on and on, until all vertexes would be visited. 
+**Depth-first search _(DFS)_** is a simple traversing algorithm, which globally consists in two steps, that are going on and on, until all vertexes would be visited. (This time we will set it recursively)
 
-At the start we have massive, array storing vertices, that we must visit and our first vertex, which from we begin traversing(and it contatins in our array). 
+At the start we have massive, array storing all vertices, where each vertex is associated with a color: white and black (in the begining all verticies are white) and our first vertex, which from we begin traversing(it's also white). 
 
-First step, we must achieve, is move from our vertex to adjacent and add it to our array.. and we will visit all our start vertex's neighbours the same way(with adding to array).
+First step, we check current vertex's color. If it's white, we proceed to the second step, else we end operation.
 
-The second step, we must achieve, is to delete our start vertex from array and assign new first element of array as start vertex...(than, after we count all start vertex's neighbores, on the second step, we will take new start vertex and add its neighboures e.t.c)
+The second step, we make our vertex black and to each adjacent vertex use our function DFS.
 
-So as not be confused because of which nodes were visited, and which won't, we can create new array, that contain all vertexes, that we have never used before... And when it became empty, we will end our algorithm.
+Sometimes, there are 3 colors: white, black and __gray__. And it is used in the second part: firstly we make our vertex gray, than we ude finction DFS to all adjacent verticies and only than we make current vertex black. So, if you are not sure, that your algorithm will work - you can use 3 colors..
 
 ## Example:
 
@@ -29,55 +29,37 @@ So as not be confused because of which nodes were visited, and which won't, we c
 
 ### Our Algorithm:
 
-Array **must_visit**: A; array **not_used**: B, C, D, E, F
+Array **colors**: 0, 0, 0, 0, 0, 0 (1st number - A's vertex color, 2nd number - B's vertex color e.t.c.)
+> 0 means white and 1 means black;
 
-1. Visit B, delete B from *not_used* array, add B to *must_visit* array
+1. A becomes black
 ```
-(Array must_visit: A, B; array not_used: C, D, E, F)
+(Array colors: 1, 0, 0, 0, 0, 0)
 ```
-2. Visit C, delete C from *not_used* array, add C to *must_visit* array
+2. B becomes black
 ```
-(Array must_visit: A, B, C; array not_used: D, E, F)
+(Array colors: 1, 1, 0, 0, 0, 0)
 ```
-3. Delete A from *must_visit* array
+3. D becomes black
 ```
-(Array must_visit: B, C; array not_used: D, E, F)
+(Array colors: 1, 1, 0, 1, 0, 0)
 ```
-4. Visit D, delete D from *not_used* array, add D to *must_used* array
+4. F becomes black
 ```
-(Array must_visit: B, C, D; array not_used: E, F)
+(Array colors: 1, 1, 0, 1, 0, 1)
 ```
-5. Delete B from *must_visit* array
+5. C becomes black
 ```
-(Array must_visit: C, D; array not_used: E, F)
+(Array colors: 1, 1, 1 , 1, 0, 1)
 ```
-6. Visit E, delete E from *not_used* array, add E to *must_used* array
+6. E becomes black
 ```
-(Array must_visit: C, D, E; array not_used: F)
+(Array colors: 1, 1, 1, 1, 1, 1)
 ```
-7. Delete C from *must_visit* array
-```
-(Array must_visit: D, E; array not_used: F)
-```
-8. Visit F, delete F from *not_used* array, add F to *must_used* array
-```
-(Array must_visit: D, E, F; array not_used: -)
-```
-9. Delete D from *must_visit* array
-```
-(Array must_visit: E, F; array not_used: -)
-```
-10. Delete E from *must_visit* array
-```
-(Array must_visit: F; array not_used: -)
-```
-11. Delete F from *must_visit* array
-```
-(Array must_visit: -; array not_used: -)
-```
-12. *must_visit* array is empty => END
+7. All vertexes are black => end
+
 
 ### Illustration:
 
-![alt text](https://github.com/RuS2m/CODE/tree/master/BFS/Example_BFS.png "Logo Title Text 2")
+![alt text](https://github.com/RuS2m/CODE/tree/master/DFS/Example_BFS "Logo Title Text 2")
 
