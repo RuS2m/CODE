@@ -61,5 +61,5 @@ Array **colors**: 0, 0, 0, 0, 0, 0 (1st number - A's vertex color, 2nd number - 
 
 ### Illustration:
 
-![alt text](https://github.com/RuS2m/CODE/tree/master/DFS/Example_BFS "Logo Title Text 2")
+![alt text](https://github.com/RuS2m/CODE/tree/master/DFS/DFS.gif "DFS")
 
