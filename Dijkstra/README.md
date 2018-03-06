@@ -45,14 +45,14 @@ The second step, then, we make our vertex - current. And find the path length to
 
 Array **not_visited**: A, B, C, D, E, F 
 Array **distance**:
-|     |  A  |  B  |  C  |  D  |  E  |  F  |
-| --- |:---:|:---:|:---:|:---:|:---:| ---:|
-|  A  |  .  |  .  |  .  |  .  |  .  |  .  |
-|  B  |  .  |  .  |  .  |  .  |  .  |  .  |
-|  C  |  .  |  .  |  .  |  .  |  .  |  .  |
-|  D  |  .  |  .  |  .  |  .  |  .  |  .  |
-|  E  |  .  |  .  |  .  |  .  |  .  |  .  |
-|  F  |  .  |  .  |  .  |  .  |  .  |  .  |
+X | A | B | C | D | E | F
+--- | --- | --- | --- | --- | --- | ---
+A | 0 | . | . | . | . | .
+B | . | . | . | . | . | .
+C | . | . | . | . | . | .
+D | . | . | . | . | . | .
+E | . | . | . | . | . | .
+F | . | . | . | . | . | .
 
 1. A becomes black
 ```
