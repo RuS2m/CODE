@@ -84,5 +84,5 @@ F | . | . | . | . | . | 0
 
 ### Illustration:
 
-![alt text](://github.com/RuS2m/CODE/blob/master/Dijkstra/Dijkstra.gif)
+![alt text](https://github.com/RuS2m/CODE/blob/master/Dijkstra/Dijkstra.gif)
 

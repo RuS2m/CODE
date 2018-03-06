@@ -3,7 +3,7 @@
 ## Description:
 
 **Breadth-first search _(BFS)_** is a simple traversing algorithm, which globally consists in two steps, that are going on and on, until all vertexes would be visited. 
-![alt text]( "Logo Ti://github.com/RuS2m/CODE/blob/master/BFS/BFS.gif tle Text 2")
+![alt text](https://github.com/RuS2m/CODE/blob/master/BFS/BFS.gif)
 At the start we have massive, array storing vertices, that we must visit and our first vertex, which from we begin traversing(and it contatins in our array). 
 
 First step, we must achieve, is move from our vertex to adjacent and add it to our array.. and we will visit all our start vertex's neighbours the same way(with adding to array).
@@ -79,5 +79,5 @@ Array **must_visit**: A; array **not_used**: B, C, D, E, F
 
 ### Illustration:
 
-![alt text](://github.com/RuS2m/CODE/blob/master/BFS/Example_BFS.png "BFS")
+![alt text](https://github.com/RuS2m/CODE/blob/master/BFS/Example_BFS.png "BFS")
 
