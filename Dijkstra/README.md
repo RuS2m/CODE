@@ -46,14 +46,14 @@ The second step, then, we make our vertex - current. And find the path length to
 Array **not_visited**: A, B, C, D, E, F 
 Array **distance**:
 
-X | A | B | C | D | E | F
+  | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 A | 0 | . | . | . | . | .
-B | . | . | . | . | . | .
-C | . | . | . | . | . | .
-D | . | . | . | . | . | .
-E | . | . | . | . | . | .
-F | . | . | . | . | . | .
+B | . | 0 | . | . | . | .
+C | . | . | 0 | . | . | .
+D | . | . | . | 0 | . | .
+E | . | . | . | . | 0 | .
+F | . | . | . | . | . | 0
 
 1. A becomes black
 ```
@@ -84,4 +84,5 @@ F | . | . | . | . | . | .
 
 ### Illustration:
 
-![alt text](https://github.com/RuS2m/CODE/tree/master/Dijkstra/Dijkstra.gif)
+![alt text](://github.com/RuS2m/CODE/blob/master/Dijkstra/Dijkstra.gif)
+

@@ -61,5 +61,5 @@ Array **colors**: 0, 0, 0, 0, 0, 0 (1st number - A's vertex color, 2nd number - 
 
 ### Illustration:
 
-![alt text](https://github.com/RuS2m/CODE/tree/master/DFS/DFS.gif "DFS")
+![alt text](https://github.com/RuS2m/CODE/blob/master/DFS/DFS.gif "DFS")
 
