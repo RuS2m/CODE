@@ -10,9 +10,9 @@ Needs to find the shortest way from current vertex to all other.
 
 At the start we have massive, array storing all unvisited vertices,ans massive, storing all vertices, where each vertex is associated with a number - path between current vertex and the other.
 
-First step, we throw out our current vertex from unvisited vertices. Then we watch through all vertices unvisited adjacent to our vertex and find there the vertex vertex with the least path to it.
+First step, we throw out our current vertex from unvisited vertices. Then we watch through all vertices unvisited adjacent to our vertex and calculate distance to them through current vertex. If it less, than make distance between start vertex to this vertex = new distance of path through current vertex. Then find there the vertex with the least path from start vertex to it.
 
-The second step, then, we make our vertex - current. And find the path length to it - minimum of path length from all adjacent verticies + path length from adjacent verticies to current. 
+The second step, then, we make our vertex - current. 
 
 ## Example:
 
@@ -46,14 +46,14 @@ The second step, then, we make our vertex - current. And find the path length to
 Array **not_visited**: A, B, C, D, E, F 
 Array **distance**:
 
-distance to | A | to B | C | D | E | F
+distance to | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 length | 0 | inf | inf | inf | inf | inf
 
 start vertex - A.
 1. min distance from A to B = 1. min distance from A to C = 6. New start vertex - B.
 
-distance to | A | to B | C | D | E | F
+distance to | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 length | 0 | 1 | 6 | inf | inf | inf
 ```
@@ -61,7 +61,7 @@ length | 0 | 1 | 6 | inf | inf | inf
 ```
 2. min distance from B to D = 1 => min distance from A to D = min distance from A to B + min distance from B to D = 1 + 1 = 2. New start vertex - D.
 
-distance to | A | to B | C | D | E | F
+distance to | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 length | 0 | 1 | 6 | 2 | inf | inf
 ```
@@ -69,7 +69,7 @@ length | 0 | 1 | 6 | 2 | inf | inf
 ```
 3. min distance from D to C = 2 => min distance from A to D = min from distance from A to C and min distance from A to D + min distance from D to C = min from 6 and 2 + 2 = min from 6 and 4 = 4. min distance from D to F = 4 => min distance from A to F = 6. New start vertex - C.
 
-distance to | A | to B | C | D | E | F
+distance to | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 length | 0 | 1 | ~~6~~ 4 | 2 | inf |68
 ```
@@ -77,7 +77,7 @@ length | 0 | 1 | ~~6~~ 4 | 2 | inf |68
 ```
 4. min distance from C to E = 3 => min distance from A to E = min distance from A to C + min distance from C to E = 4 + 3 = 7. New start vertex - E.
 
-distance to | A | to B | C | D | E | F
+distance to | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 length | 0 | 1 | 4 | 2 | 7 | 4
 ```
@@ -85,7 +85,7 @@ length | 0 | 1 | 4 | 2 | 7 | 4
 ```
 5. E isn't connected with F
 
-distance to | A | to B | C | D | E | F
+distance to | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
 length | 0 | 1 | 4 | 2 | 7 | 4
 ```
