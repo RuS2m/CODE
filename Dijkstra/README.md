@@ -30,17 +30,17 @@ The second step, then, we make our vertex - current. And find the path length to
 - **F**, that's connected with only D
 
 ### Distances:
-- AB = ...
+- AB = 1
 
-- AC = ...
+- AC = 6
 
-- BD = ...
+- BD = 1
 
-- CD = ...
+- CD = 2
 
-- CE = ...
+- CE = 3
 
-- DF = ...
+- DF = 4
 ### Our Algorithm:
 
 Array **not_visited**: A, B, C, D, E, F 
@@ -48,12 +48,12 @@ Array **distance**:
 
 . | A | B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
-A | 0 | . | . | . | . | .
-B | . | 0 | . | . | . | .
-C | . | . | 0 | . | . | .
-D | . | . | . | 0 | . | .
-E | . | . | . | . | 0 | .
-F | . | . | . | . | . | 0
+A | 0 | 1 | 6 | inf | inf | inf
+B | 1 | 0 | inf | 1 | inf | inf
+C | 6 | inf | 0 | 2 | 3 | inf
+D | inf | 1 | 2 | 0 | inf | 4
+E | inf | inf | 3 | inf | 0 | inf
+F |inf | inf | inf | 4 | inf | 0
 
 1. A becomes black
 ```
