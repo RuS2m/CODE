@@ -46,40 +46,52 @@ The second step, then, we make our vertex - current. And find the path length to
 Array **not_visited**: A, B, C, D, E, F 
 Array **distance**:
 
-. | A | B | C | D | E | F
+distance to | A | to B | C | D | E | F
 --- | --- | --- | --- | --- | --- | ---
-A | 0 | 1 | 6 | inf | inf | inf
-B | 1 | 0 | inf | 1 | inf | inf
-C | 6 | inf | 0 | 2 | 3 | inf
-D | inf | 1 | 2 | 0 | inf | 4
-E | inf | inf | 3 | inf | 0 | inf
-F |inf | inf | inf | 4 | inf | 0
+length | 0 | inf | inf | inf | inf | inf
 
-1. A becomes black
+start vertex - A.
+1. min distance from A to B = 1. min distance from A to C = 6. New start vertex - B.
+
+distance to | A | to B | C | D | E | F
+--- | --- | --- | --- | --- | --- | ---
+length | 0 | 1 | 6 | inf | inf | inf
 ```
-(Array colors: 1, 0, 0, 0, 0, 0)
+(Array not_visited: B, C, D, E, F)
 ```
-2. B becomes black
+2. min distance from B to D = 1 => min distance from A to D = min distance from A to B + min distance from B to D = 1 + 1 = 2. New start vertex - D.
+
+distance to | A | to B | C | D | E | F
+--- | --- | --- | --- | --- | --- | ---
+length | 0 | 1 | 6 | 2 | inf | inf
 ```
-(Array colors: 1, 1, 0, 0, 0, 0)
+(Array not_visited: C, D, E, F)
 ```
-3. D becomes black
+3. min distance from D to C = 2 => min distance from A to D = min from distance from A to C and min distance from A to D + min distance from D to C = min from 6 and 2 + 2 = min from 6 and 4 = 4. min distance from D to F = 4 => min distance from A to F = 6. New start vertex - C.
+
+distance to | A | to B | C | D | E | F
+--- | --- | --- | --- | --- | --- | ---
+length | 0 | 1 | ~~6~~ 4 | 2 | inf |68
 ```
-(Array colors: 1, 1, 0, 1, 0, 0)
+(Array not_visited: C, E, F)
 ```
-4. F becomes black
+4. min distance from C to E = 3 => min distance from A to E = min distance from A to C + min distance from C to E = 4 + 3 = 7. New start vertex - E.
+
+distance to | A | to B | C | D | E | F
+--- | --- | --- | --- | --- | --- | ---
+length | 0 | 1 | 4 | 2 | 7 | 4
 ```
-(Array colors: 1, 1, 0, 1, 0, 1)
+(Array not_visited: E, F)
 ```
-5. C becomes black
+5. E isn't connected with F
+
+distance to | A | to B | C | D | E | F
+--- | --- | --- | --- | --- | --- | ---
+length | 0 | 1 | 4 | 2 | 7 | 4
 ```
-(Array colors: 1, 1, 1 , 1, 0, 1)
+(Array not_visited: F)
 ```
-6. E becomes black
-```
-(Array colors: 1, 1, 1, 1, 1, 1)
-```
-7. All vertexes are black => end
+7. All vertexes was visited => end
 
 
 ### Illustration:
