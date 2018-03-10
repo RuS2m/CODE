@@ -28,13 +28,44 @@ Firstly, we have array with all edges and answer array - array with verticies fr
 - **E**, that's connected with only C
   
 - **F**, that's connected with only D
-    
-### Our AlgorithmL
+
+
+```
+(Array answer: -)
+(Array with edges: AB, AC, BD, CD, CE, DF)
+```
+### Our Algorithm:
 
 Array **answer**: -
 
-1.
+1. We chose edge AB. A become element in answer array. From array  we delete edges: AB and AC.
 
-2.
+```
+(Array answer: A)
+(Array with edges: BD, CD, CE, DF)
+``` 
+
+2. We chose edge BD. B become element in answer array. From array  we delete edges: BD.
+
+ ```
+ (Array answer: A, B)
+ (Array with edges: CD, CE, DF)
+ ```
+
+3. We chose edge CD. C become element in answer array. From array  we delete edges: CD and CE.
+
+ ```
+  (Array answer: A, B, C)
+   (Array with edges: DF)
+```
+
+4. We chose edge DF. B become element in answer array. From array  we delete edges: DF.
+
+ ```
+  (Array answer: A, B, C, D)
+   (Array with edges: -)
+```
+
+5. Answer - array{A, B, C, D}
 
 ![alt text](https://github.com/RuS2m/CODE/blob/master/FVC/fvc.jpg "FVC")
