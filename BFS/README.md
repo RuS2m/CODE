@@ -13,7 +13,7 @@ So as not be confused because of which nodes were visited, and which won't, we c
 
 ## Example:
 
-### There is nodes: 
+### There are nodes: 
 - **A**, that's connected with B and C
 
 - **B**, that's connected with A and D

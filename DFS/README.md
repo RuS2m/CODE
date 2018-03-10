@@ -14,7 +14,7 @@ Sometimes, there are 3 colors: white, black and __gray__. And it is used in the 
 
 ## Example:
 
-### There is nodes: 
+### There are nodes: 
 - **A**, that's connected with B and C
 
 - **B**, that's connected with A and D
