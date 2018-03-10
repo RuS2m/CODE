@@ -16,7 +16,7 @@ The second step, then, we make our vertex - current.
 
 ## Example:
 
-### There is nodes: 
+### There are nodes: 
 - **A**, that's connected with B and C
 
 - **B**, that's connected with A and D
