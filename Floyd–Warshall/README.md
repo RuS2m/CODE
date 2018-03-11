@@ -10,8 +10,8 @@ This is the simpliest way to find the shortesr way, and by virtue of simplicity 
 
 The algorithm is just search of all cases and looks like this:
 ```
-for k = 1 to n //перебор всех вершин (k)
-    for i = 1 to n //смотрим для каждой пар вершин i и j
-        for j = 1 to n //проход через вершину
-            W[i][j] = min(W[i][j], W[i][k] + W[k][j]) //если меньше - заменяем.
+for k = 1 to n //search all vertices (k)
+    for i = 1 to n //look for each pair of vertices i and j 
+        for j = 1 to n //way through the top 
+            W[i][j] = min(W[i][j], W[i][k] + W[k][j]) //if it less than original - change.
 ```
