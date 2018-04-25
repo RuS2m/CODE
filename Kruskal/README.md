@@ -33,11 +33,43 @@ When algorithm stops, in our array left all edges of the exact wanted spanning-t
 **List of all edges:**
 
 ```
-
 AB = 7, AD = 5, BC = 8, BD = 9, BE = 7, CE = 5, DE = 15, DF = 6, EF = 8, FG = 11
-
 ```
 
 ### Algorithm:
 
-. . .
+Array **answer**: -
+
+1. We choose edge AD, because that's minimum-weighted edge with weight = 5:
+
+```
+answer: AD
+```
+
+2. We choose edge CE, because that's minimum-weighted edge with weight = 5 and it's not create cycle in graph:
+
+```
+answer: AD, CE
+```
+
+3. We choose edge DF, because that's minimum-weighted edge with weight = 6 and it's not create cycle in graph:
+
+```
+answer: AD, CE, DF
+```
+
+4. We choose edge BE, because that's minimum-weighted edge with weight = 7 and it's not create cycle in graph (AB = 7, but that create a cycle ABD):
+
+```
+answer: AD, CE, DF, BE
+```
+
+5. We choose edge EG, because that's minimum-weighted edge with weight = 9 and it's not create cycle in graph:
+
+```
+answer: AD, CE, DF, BE, EG
+```
+
+6. Algorithms ands and answer is graph with edges {AD, CE, BE, EG}
+
+![Kruskal]()
