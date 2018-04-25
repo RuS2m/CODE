@@ -30,12 +30,13 @@ When algorithm stops, in our array left all edges of the exact wanted spanning-t
 
 - **G**: that's connected with E (EG = 9) and F (FG = 11)
 
+![example](https://github.com/RuS2m/CODE/blob/master/Kruskal/example.png)
+
 **List of all edges:**
 
 ```
 AB = 7, AD = 5, BC = 8, BD = 9, BE = 7, CE = 5, DE = 15, DF = 6, EF = 8, FG = 11
 ```
-![example](https://github.com/RuS2m/CODE/blob/master/Kruskal/example.png)
 
 ### Algorithm:
 
@@ -73,4 +74,4 @@ answer: AD, CE, DF, BE, EG
 
 6. Algorithms ands and answer is graph with edges {AD, CE, BE, EG}
 
-![Kruskal](![list of already read books](https://github.com/RuS2m/HACK/blob/master/TripLib/pic4.jpg://github.com/RuS2m/CODE/blob/master/Kruskal/Kruskal.gif)
+![Kruskal](https://github.com/RuS2m/HACK/blob/master/TripLib/pic4.jpg://github.com/RuS2m/CODE/blob/master/Kruskal/Kruskal.gif)
