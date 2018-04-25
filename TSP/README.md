@@ -11,4 +11,5 @@ That's NP-hard problem, so there is no easy ways to solve that (and we will look
 ## Example:
 
 It better to show it on gif
+
 ![example](https://github.com/RuS2m/CODE/blob/master/TSP/traveling_salesman.gif)
