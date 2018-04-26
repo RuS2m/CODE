@@ -26,4 +26,4 @@ And there are realization of some functions:
 
 **delete** - delete node
 
-
+![bin_tree](https://github.com/RuS2m/CODE/blob/master/bin_tree/binary.png)
