@@ -74,4 +74,4 @@ answer: AD, CE, DF, BE, EG
 
 6. Algorithms ands and answer is graph with edges {AD, CE, BE, EG}
 
-![Kruskal](https://github.com/RuS2m/CODE/blob/master/Kruskal/Kruskal.jpg)
+![Kruskal](https://github.com/RuS2m/CODE/blob/master/Kruskal/Kruskal.gif)
