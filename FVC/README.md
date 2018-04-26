@@ -38,28 +38,28 @@ Firstly, we have array with all edges and answer array - array with verticies fr
 
 Array **answer**: -
 
-1. We chose edge AB. A become element in answer array. From array  we delete edges: AB and AC.
+1. We choose edge AB. A become element in answer array. From array  we delete edges: AB and AC.
 
 ```
 (Array answer: A)
 (Array with edges: BD, CD, CE, DF)
 ``` 
 
-2. We chose edge BD. B become element in answer array. From array  we delete edges: BD.
+2. We choose edge BD. B become element in answer array. From array  we delete edges: BD.
 
  ```
  (Array answer: A, B)
  (Array with edges: CD, CE, DF)
  ```
 
-3. We chose edge CD. C become element in answer array. From array  we delete edges: CD and CE.
+3. We choose edge CD. C become element in answer array. From array  we delete edges: CD and CE.
 
  ```
   (Array answer: A, B, C)
    (Array with edges: DF)
 ```
 
-4. We chose edge DF. B become element in answer array. From array  we delete edges: DF.
+4. We choose edge DF. B become element in answer array. From array  we delete edges: DF.
 
  ```
   (Array answer: A, B, C, D)
