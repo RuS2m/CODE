@@ -53,13 +53,12 @@ Answer: 1 2 4 5 8
 
 ### Merge sort:
 
---
---
+**TO DO:** [read materials](http://sorting.valemak.com/merge/)
+
 ### Example:
 --
 ### Quick sort:
 
---
---
+**TO DO:** [read materials](http://sorting.valemak.com/quick/)
 ### Example:
 --
