@@ -11,6 +11,7 @@ There is array and it's need to be sorted (made from the same elements, array, i
 Make empty array, called **Answer** and make _operation_:
   1) take i-th element from the original array
   2) walk through **Answer** and stop at the element, which less, than current element, but the next element of **Answer's** array is more, than current element and add current element on place after element, we stopped.
+
 And repeat this operation, while number of elements in **Answer** array will be the same, as in original one.
 
 ### Example:
