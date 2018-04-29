@@ -57,8 +57,12 @@ Answer: 1 2 4 5 8
 
 ### Example:
 --
+![sort_merge](https://github.com/RuS2m/CODE/blob/master/sorts/sort_merge.gif)
+
 ### Quick sort:
 
 **TO DO:** [read materials](http://sorting.valemak.com/quick/)
 ### Example:
 --
+![sort_quick](https://github.com/RuS2m/CODE/blob/master/sorts/sort_quick.gif)
+
