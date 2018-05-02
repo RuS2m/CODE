@@ -33,8 +33,8 @@ And changing tenure(as a part of copying) is going with using spectial function 
 
 Also, it have such functions as **reset** (that resets tenure) and **get** (that returns pointer).
 
----
+### Comments and other stuff
 
-> Actually there are 3 types of smart pointers: unique_ptr, shared_ptr и weak_ptr and all of them comtains in <memory> library.
+Actually there are 3 types of smart pointers: **unique_ptr**, **shared_ptr** и **weak_ptr** and all of them comtains in <memory> library.
 
 **original unique_ptr realization:** [function in C++](http://ru.cppreference.com/w/cpp/memory/unique_ptr)
