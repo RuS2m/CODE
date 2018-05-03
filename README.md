@@ -3,7 +3,7 @@
 
 ## Contents:
 
-* **Array algorithms**
+* **Array Algorithms**
     * [Various sort algorithms](https://github.com/RuS2m/CODE/tree/master/sorts)
 
 * **Graph Algorithms**
