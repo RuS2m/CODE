@@ -1,31 +1,36 @@
 # What is it?
  In this repository I collected examples of my code on C/C++. There are various realizations of famous basic algorithms or popular objects and functions of C++.
-## Here you can find:
-- [Binary tree realization](https://github.com/RuS2m/CODE/tree/master/bin_tree)
 
-- [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
+## Contents:
 
-- [Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
+* **Graph Algorithms**
+    * [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
 
-- [Dijkstra's algorithm](https://github.com/RuS2m/CODE/tree/master/Dijkstra)
+    * [Depth-first search](https://github.com/RuS2m/CODE/tree/master/DFS)
 
-- [Floyd–Warshall algorithm](https://github.com/RuS2m/CODE/tree/master/Floyd–Warshall)
+    * [Dijkstra's algorithm](https://github.com/RuS2m/CODE/tree/master/Dijkstra)
 
-- [Kruskal's algorithm](https://github.com/RuS2m/CODE/tree/master/Kruskal)
+    * [Floyd–Warshall algorithm](https://github.com/RuS2m/CODE/tree/master/Floyd–Warshall)
 
-- [Matrix realization](https://github.com/RuS2m/CODE/tree/master/matrix)
+    * [Kruskal's algorithm](https://github.com/RuS2m/CODE/tree/master/Kruskal)
 
-- [Maximum cut](https://github.com/RuS2m/CODE/tree/master/max_cut)
+    * [Maximum cut](https://github.com/RuS2m/CODE/tree/master/max_cut)
 
-- [std::unique_ptr realization](https://github.com/RuS2m/CODE/tree/master/unique_ptr)
+    * [Travelling salesman problem](https://github.com/RuS2m/CODE/tree/master/TSP)
 
-- [Travelling salesman problem](https://github.com/RuS2m/CODE/tree/master/TSP)
+    * [The Forest vertex-cover problem](https://github.com/RuS2m/CODE/tree/master/FVC)
 
-- [The Forest vertex-cover problem](https://github.com/RuS2m/CODE/tree/master/FVC)
+    * [The number of connected components](https://github.com/RuS2m/CODE/tree/master/component_counter)
 
-- [The number of connected components](https://github.com/RuS2m/CODE/tree/master/component_counter)
+* **Array algorithms**
+    * [Various sort algorithms](https://github.com/RuS2m/CODE/tree/master/sorts)
 
-- [Various sort algotiyhms](https://github.com/RuS2m/CODE/tree/master/sorts)
+* **Implementation of Basic Classes**
+    * [Binary tree realization](https://github.com/RuS2m/CODE/tree/master/bin_tree)
+
+    * [Matrix realization](https://github.com/RuS2m/CODE/tree/master/matrix)
+
+    * [std::unique_ptr realization](https://github.com/RuS2m/CODE/tree/master/unique_ptr)
 
 ## Comments:
 > I hope you will enjoy
