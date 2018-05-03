@@ -3,6 +3,9 @@
 
 ## Contents:
 
+* **Array algorithms**
+    * [Various sort algorithms](https://github.com/RuS2m/CODE/tree/master/sorts)
+
 * **Graph Algorithms**
     * [Breadth-first search](https://github.com/RuS2m/CODE/tree/master/BFS)
 
@@ -21,9 +24,6 @@
     * [The Forest vertex-cover problem](https://github.com/RuS2m/CODE/tree/master/FVC)
 
     * [The number of connected components](https://github.com/RuS2m/CODE/tree/master/component_counter)
-
-* **Array algorithms**
-    * [Various sort algorithms](https://github.com/RuS2m/CODE/tree/master/sorts)
 
 * **Implementation of Basic Classes**
     * [Binary tree realization](https://github.com/RuS2m/CODE/tree/master/bin_tree)
